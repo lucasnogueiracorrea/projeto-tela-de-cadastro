@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js" defer></script>
+    <title>Tela de Cadastro</title>
+</head>
+<body>
+    <header id="box-header"> <!--start cabecalho-->
+        <h1 id="title-main">sign up to connect</h1> <!--title main-->
+        <nav id="box-navbar"> <!--start navbar-->
+            <ul id="box-list"> <!--start list not order-->
+                <li>
+                    <a href="https://www.linkedin.com/in/lucass-correa/" target="_blank">
+                        <img src="img/linkedin.png" alt="logo linkedin"> <!--linkedin-->
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/lucasnogueiracorrea" target="_blank">
+                        <img src="img/github.png" alt="logo github"> <!--github-->
+                    </a>
+                </li>
+                <li>
+                    <a href="https://wa.me/5521975176561" target="_blank">
+                        <img src="img/whatsapp.png" alt="logo whatsapp"><!--whatsapp-->
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/lucascorrearj/" target="_blank">
+                        <img src="img/instagram.png" alt="logo instagram"> <!--instagram-->
+                    </a>
+                </li>
+            </ul> <!--end list not order-->
+        </nav> <!--end navbar-->
+    </header> <!--end cabecalho-->
+ 
+    <main id="box-main-content"> <!--start main-content-->
+        <form id="box-form"> <!--start form-->
+        
+            <div class="box-info-form" id="box-frist-name"> <!--start box frist name-->
+                <label for="frist-name">Frist name:</label>
+                <input id="input-fritsName" type="text" name="frist-name" placeholder="Your frist name..." >
+                <span id="name-requerid" class="hide"><p>Name is invalid</p></span>
+                <span id="name-sucess" class="hide"><p>Sucess</p></span>
+            </div> <!--end box frist name-->
+
+            <div class="box-info-form" id="box-last-name"> <!--start box last name-->
+                <label for="last-name">Last name:</label>
+                <input id="input-lastName" type="text" name="last-name" placeholder="Your last name..." >
+                <span id="last-name-requerid" class="hide"><p>Last name is invalid</p></span>
+                <span id="last-name-sucess" class="hide"><p>Sucess</p></span>
+            </div> <!--end box last name-->
+
+            <div class="box-info-form" id="box-email"> <!--start box email-->
+                <label for="email">E-mail:</label>
+                <input id="input-emial" type="email" name="email" placeholder="Your email..." >
+                <span id="email-invalid" class="hide"><p>E-mail is invalid</p></span>
+                <span id="email-sucess" class="hide"><p>Sucess</p></span>
+            </div> <!--end box email-->
+
+            <div class="box-info-form" id="box-password"> <!--start box password-->
+                <label for="password">Password:</label>
+                <input id="input-password" type="password" name="password" placeholder="Password..." >
+                <span id="password-invalid" class="hide"><p>Password is invalid</p></span>
+                <span id="password-not-check" class="hide"><p>Password not check</p></span>
+                <span id="password-sucess" class="hide"><p>Sucess</p></span>
+            </div> <!--end box password-->
+
+            <div class="box-info-form" id="box-confirm-password"> <!--start box confirm password-->
+                <label for="confirm-password">Confirm password:</label>
+                <input id="input-confirm-password" type="password" name="confirm-password" placeholder="Confirm password..." >
+                <span id="password-confirm-invalid" class="hide"><p>Password is invalid</p></span>
+                <!--<span id="password-confirm-not-check" class="hide"><p>Password not check</p></span>-->
+                <span id="password-confirm-sucess" class="hide"><p>Sucess</p></span>
+            </div> <!--end box confirm password-->
+
+            <button type="submit" id="btn">register</button> <!--button to register-->
+
+        </form> <!--end form-->
+    </main> <!--end main-content-->
+
+    <footer id="box-footer">
+        <p>&copy; Desenvolvido por - <a href="https://www.linkedin.com/in/lucass-correa/" target="_blank">Lucas Corrêa</a></p>
+    </footer>
+
+
+
+</body>
+</html>
